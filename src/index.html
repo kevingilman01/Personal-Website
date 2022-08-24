@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kevin Gilman</title>
+    <link rel="stylesheet" href="/jquery-ui-1.13.1/jquery-ui.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/jquery-ui-1.13.1/jquery-ui.js"></script>
+    <script src="/jquery-ui-1.13.1/jquery-ui.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navbarStyles">
+        <div class="container-fluid">
+          <img src="/img/kevinlogo.png" style="border-radius:50%;width:50px;height:auto;margin-right: 20px;">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Media">Media</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/pdf/ResumeV5.pdf" target="_blank">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div id="Home">
+        <div class="row centerContent">
+            <div class="col-md-6">
+                <div class="nameStyles">
+                    <h1 class="header">Kevin Gilman</h1>
+                    <p id="major">Electrical and Computer Engineer</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+              <img src="/img/profile.png" id="profilePic">
+            </div>
+        </div>
+    </div>
+    <div id="About">
+      <h1 class="header" style="text-align: center;padding-top: 80px;">About Me</h1>
+      <div class="row centerContent" style="padding-top: 200px;">
+        <div class="col-md-6">
+            <div>
+                <h1>Education</h1>
+                <p class="pText">I am a current student at the University of Arizona. I am pursuing a master's degree in electrical and computer engineering,
+                as well as a minor in data science and statistics. Through my coursework, I have developed an understanding of both hardware and software. The
+                projects that I have completed have helped me to better understand the full engineering design process.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <img src="/img/university of arizona.png" style="width: 75%;height: auto;">
+        </div>
+      </div>
+      <div class="row centerContent" style="padding-top: 200px;">
+        <div class="col-md-6">
+            <div>
+                <h1>Work</h1>
+                <p class="pText">I work for an HVAC company called EDGE Mechanical. My current role at the company is controls engineering. This involves both
+                programming and wiring/installation. As a controls engineer, it is my responsibility to configure controllers to drive different HVAC equipment.
+                After the controllers are programmed, I wire the necessary external devices to the input and output ports of the controller. Once the
+                controller is wired, I perform an air balance by testing the equipment, and monitoring values in real time to make final adjustments in the software.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <img src="/img/controls.png" style="width: 75%;height: auto;">
+        </div>
+      </div>
+      <div class="row centerContent" style="padding-top: 200px;">
+        <div class="col-md-6">
+            <div>
+                <h1>Personal</h1>
+                <p class="pText">In my free time I love to play video games with my friends. My favorite games to play are rocket league, call of duty zombies, and dead by daylight.
+                I also love to watch shows and movies with my girlfriend. On occasion I like to play jazz music on my saxophone. Most recently I have acquired a hobby for developing
+                games as my skills with software and coding are increasing.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <img src="/img/personal.png" style="width: 75%;height: auto;">
+        </div>
+      </div>
+    </div>
+    <div id="Projects">
+      <h1 class="header" style="text-align: center;padding-top: 80px;">Projects</h1>
+      <br><br><br><br><br><br>
+      <div class="row centerContent">
+        <div class="col-md-6" style="margin-bottom:50px;">
+          <div style="position:relative;border-style: solid;border-color: black;border-width: 5px;width: 70%;height: auto;right: -15%;">
+            <div class="card">
+              <img src="/img/wordle.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Wordle</h5>
+                <p class="card-text">This is a clone of Wordle, implemented with html, css, and javascript.</p>
+                <a href="https://kevingilman01.github.io/WordleProject/" class="btn btn-primary">Go to Wordle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" style="margin-bottom:50px;">
+          <div style="position:relative;border-style: solid;border-color: black;border-width: 5px;width: 70%;height: auto;right: -15%;">
+            <div class="card">
+              <img src="/img/snake.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Snake</h5>
+                <p class="card-text">This is an html, css, javascript, and jQuery implementation of the game snake.
+                </p>
+                <a href="https://kevingilman01.github.io/Snake/" class="btn btn-primary">Go to Snake</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br><br><br>
+      <div class="row centerContent">
+        <div class="col-md-6" style="margin-bottom:50px;">
+          <div style="position:relative;border-style: solid;border-color: black;border-width: 5px;width: 70%;height: auto;right: -15%;">
+            <div class="card">
+              <img src="/img/apartmentportal.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Apartment Portal Software</h5>
+                <p class="card-text">This is an apartment portal implemented with java object oriented design. This software utilizes the swing application framework.</p>
+                <a href="https://github.com/kevingilman01/Apartment-Portal-Software" class="btn btn-primary">Go to Apartment Portal</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" style="margin-bottom:50px;">
+          <div style="position:relative;border-style: solid;border-color: black;border-width: 5px;width: 70%;height: auto;right: -15%;">
+            <div class="card">
+              <img src="/img/nqueens.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">N-Queens Algorithm</h5>
+                <p class="card-text">This program will output all possible solutions for and 8x8 board where 8 queens can be placed on the board without attacking another queen.
+                  The possible solutions are calculated using two different search algorithms (forward checking and directional look ahead). 
+                </p>
+                <a href="https://github.com/kevingilman01/N-Queens" class="btn btn-primary">Go to N-Queens</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br><br><br>
+      <div class="row centerContent">
+        <div class="col-md-6" style="margin-bottom:50px;">
+          <div style="position:relative;border-style: solid;border-color: black;border-width: 5px;width: 70%;height: auto;right: -15%;">
+            <div class="card">
+              <img src="/img/processor.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">4-Core Processor</h5>
+                <p class="card-text">This is a FPGA implemented processor, designed to implement a video processing algorithm in MIPS instruction set architecture.</p>
+                <a href="https://github.com/kevingilman01/4-Core-Processor" class="btn btn-primary">Go to 4-Core Processor</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" style="margin-bottom:50px;">
+          <div style="position:relative;border-style: solid;border-color: black;border-width: 5px;width: 70%;height: auto;right: -15%;">
+            <div class="card">
+              <img src="/img/robotcar.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">GPS Tracking Robot Car</h5>
+                <p class="card-text">This is a robot car with gps tracking capabilities. The system was implemented with an arduino mega microcontroller used to control the vehicle.
+                  The controller drives the vehicle by communicating with the HMC 5883L Compass, Adafruit Ultimate GPS, and HC-05 Bluetooth Module.
+                </p>
+                <a href="https://github.com/kevingilman01/GPS-Tracking-Robot-Car" class="btn btn-primary">Go to Robot Car</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br><br><br>
+    </div>
+    <div id="Media">
+      <div class="centerContent">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="https://github.com/kevingilman01" class="fa fa-github"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="script.js"></script>
+    </body>
+</html>

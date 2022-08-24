@@ -1,0 +1,121 @@
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 60px;
+}
+
+.pText {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.marginTop {
+    margin-top: 50px;
+}
+
+.navbarStyles {
+    border-style: solid;
+    border-color: lightblue;
+}
+
+.nav-item:hover {
+    opacity: 80%;
+}
+
+.nameStyles {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 90%;
+    right: -5%;
+    position: relative;
+}
+
+.centerContent {
+    align-items: center;
+    height:inherit;
+    text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+ padding: 20px;
+ font-size: 30px;
+ width: 50px;
+ text-align: center;
+ text-decoration: none;
+ border-radius: 50%;
+ margin:20px;
+}
+  
+  /* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+  
+  /* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+  /* Instagram */
+.fa-instagram {
+    background: #125688;
+    color: white;
+    padding-left:18px;
+}
+
+ /* Github */
+.fa-github {
+    background: black;
+    color: white;
+    padding-left: 18px;
+}
+
+ /* LinkedIn */
+.fa-linkedin {
+    background: #007BB5;
+    color: white;
+    padding-left: 18px;
+}
+
+#Home {
+    background-color: lightgray;
+    height: 800px;
+    margin-top: 60px;
+}
+
+#About {
+    background-color: tan;
+}
+
+#Projects {
+    background-color: bisque;
+}
+
+#Media {
+    background-color: lightslategray;
+}
+
+#major {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#profilePic {
+    width: 50%;
+    height: auto;
+}
